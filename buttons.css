@@ -1,0 +1,88 @@
+.buttonMenu {
+  background-color: transparent;
+  border: #6f99d8;
+  border-radius: 20%;
+  padding-top: 5px;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.buttonCategory {
+  background-color: #6f99d8;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #03397e solid 4px;
+  border-radius: 20px;
+  height: 3em;
+  text-shadow: 0px 1px 0px;
+  box-shadow: 3px 3px 3px 0px #034aa6;
+  display: inline-block;
+  margin: 3%;
+  border-top: 10px solid hlsa(0, 0%, 100%, 0, 5);
+  transition: transform 3s 0, 1s;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 1px 2px 15px rgba(4, 4, 4, 2.25);
+  padding: 1%;
+}
+
+.notStarted {
+  background-color: grey;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+  box-shadow: inset 2px 4px 25px rgba(4, 4, 4, 2.25);
+  margin: 30px;
+  height: 3em;
+  padding: 8px;
+}
+
+.buttonCategory:hover {
+  background-color: #6f99d8;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonMenu {
+  background-color: transparent;
+}
+.buttonMenu:hover {
+  background-color: #6f99d8;
+  color: white;
+}
+
+.memButton {
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 5px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+}
+
+.makingPlansSentenceBtn {
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 5px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+}
