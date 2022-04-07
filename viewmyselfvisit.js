@@ -182,96 +182,96 @@ function visitMeWords() {
 <section class='memory-game'>
 
 <div class='memory-card' data-framework ='armchair'>
-<img class='front-face imgMem' src='/bildermemory/armchair.png' alt='armchair'>
+<img class='front-face imgMem' src='bildermemory/armchair.png' alt='armchair'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 
 </div>
 
 <div class='memory-card' data-framework ='armchair'>
-<img class='front-face imgMem' src='/bildermemory/lenestol.png' alt='lenestol'>
+<img class='front-face imgMem' src='bildermemory/lenestol.png' alt='lenestol'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='carpet'>
-<img class='front-face imgMem' src='/bildermemory/carpet.png' alt='carpet'>
+<img class='front-face imgMem' src='bildermemory/carpet.png' alt='carpet'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'> 
 
 
 </div>
 <div class='memory-card' data-framework ='carpet'>
-<img class='front-face imgMem' src='/bildermemory/teppe.png' alt='teppe'>
+<img class='front-face imgMem' src='bildermemory/teppe.png' alt='teppe'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='cupboard'>
-<img class='front-face imgMem' src='/bildermemory/cupboard.png' alt='cupboard'>
+<img class='front-face imgMem' src='bildermemory/cupboard.png' alt='cupboard'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 <div class='memory-card' data-framework ='cupboard'>
-<img class='front-face imgMem' src='/bildermemory/skap.png' alt='skap'>
+<img class='front-face imgMem' src='bildermemory/skap.png' alt='skap'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='curtains'>
-<img class='front-face imgMem' src='/bildermemory/curtains.png' alt='curtains'>
+<img class='front-face imgMem' src='bildermemory/curtains.png' alt='curtains'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='curtains'>
-<img class='front-face imgMem' src='/bildermemory/gardiner.png' alt='gardiner'>
+<img class='front-face imgMem' src='bildermemory/gardiner.png' alt='gardiner'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 </div>
 
 <div class='memory-card' data-framework ='fridge'>
-<img class='front-face imgMem' src='/bildermemory/fridge.png' alt='fridge'>
+<img class='front-face imgMem' src='bildermemory/fridge.png' alt='fridge'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='fridge'>
-<img class='front-face imgMem' src='/bildermemory/kjøpeskap.png' alt='kjøleskap'>
+<img class='front-face imgMem' src='bildermemory/kjøpeskap.png' alt='kjøleskap'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='bookshelf'>
-<img class='front-face imgMem' src='/bildermemory/bookshelf.png' alt='bookshelf'>
+<img class='front-face imgMem' src='bildermemory/bookshelf.png' alt='bookshelf'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='bookshelf'>
-<img class='front-face imgMem' src='/bildermemory/bokhylle.png' alt='bokhylle'>
+<img class='front-face imgMem' src='bildermemory/bokhylle.png' alt='bokhylle'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='picture'>
-<img class='front-face imgMem' src='/bildermemory/picture.png' alt='picture'>
+<img class='front-face imgMem' src='bildermemory/picture.png' alt='picture'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='picture'>
-<img class='front-face imgMem' src='/bildermemory/bilde.png' alt='bilde'>
+<img class='front-face imgMem' src='bildermemory/bilde.png' alt='bilde'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='sink'>
-<img class='front-face imgMem' src='/bildermemory/sink.png' alt='sink'>
+<img class='front-face imgMem' src='bildermemory/sink.png' alt='sink'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
 
 <div class='memory-card' data-framework ='sink'>
-<img class='front-face imgMem' src='/bildermemory/vask.png' alt='vask'>
+<img class='front-face imgMem' src='bildermemory/vask.png' alt='vask'>
 <img class='back-face imgMem' src='https://cdn.pixabay.com/photo/2020/08/12/16/15/question-mark-5483067_960_720.png' alt='front'>
 
 </div>
