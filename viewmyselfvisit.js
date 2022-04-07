@@ -70,7 +70,7 @@ function readmyself() {
 <button onclick="changePage('readmyself')" class='buttonMenu'>Read</button> 
 <button onclick="changePage('writemyself')" class='buttonMenu'>Write</button>
 </div>
-<div class='mainContent' "readSentences"> 
+<div class='mainContent readSentences'> 
 
 <p> 
 There are many different names for body parts. Cheeck, back, neck and thumb is some of them. 
@@ -303,17 +303,12 @@ function visitMeRead() {
 <button onclick="changePage('visitMeRead')" class='buttonMenu'>Read</button> 
 <button onclick="changePage('visitMeWrite')" class='buttonMenu'>Write</button>
 </div>
-<div class='mainContent'>
+<div class='mainContent readSentences'>
 
-<p> Sentence </p>
-<p> Sentence </p>
-<p> Sentence </p>
-<p> Sentence </p>
-<p> Sentence </p>
-<p> Sentence </p>
-<p> Sentence </p>
+<p> 
+ In my livingroom I have a sofa and an armchair. The table stands on a carpet. <br> Against the wall we have a cupboard and in the windows we have some nice green curtains. <br> If I go up the stairs and to the right I can go in to my room.<br> In my room I have a large bed, a wordrobe for all my clothes, and a mirror. <br> We do also have a bathroom upstairs. In the mornings I always go on the toilet and take a shower.<br> And my mom is the one who uses the washing machine.<br>
 
-
+</p>
 </div>
 </div>
 

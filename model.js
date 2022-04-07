@@ -379,9 +379,113 @@ let model = {
             sentenceInput: '',
             sentenceCorrect: 'The traffic light is red.',
         },
-
-
-    ]
+    ],
+    makingPlansWords: [
+        {
+            word:'a town',
+            picture: 'https://i.pinimg.com/originals/51/2a/0f/512a0fdf4ef14da06b14fa8f7aba9365.jpg',
+        },
+        {
+            word:'a pond',
+            picture: 'https://t3.ftcdn.net/jpg/02/84/94/84/360_F_284948479_gOTyMKXxGn7PCFbv8iYSCWmP5kvco7iL.jpg',
+        },
+        {
+            word:'a bus',
+            picture: 'https://s3.envato.com/files/269068447/set_of_images/toon_bus_03_d.jpg',
+        },
+        {
+            word:'a curch',
+            picture: 'https://png.pngtree.com/png-clipart/20210430/ourlarge/pngtree-cartoon-church-building-png-image_3251459.jpg',
+        },
+        {
+            word:'a park',
+            picture: 'https://st2.depositphotos.com/1173077/8964/v/950/depositphotos_89644794-stock-illustration-city-park-cartoon.jpg',
+        },
+        {
+            word:'a police officer',
+            picture: 'https://img.freepik.com/free-vector/cartoon-drawing-police-officer_29937-8170.jpg',
+        },
+        {
+            word:'a cinema',
+            picture: 'https://cdn5.vectorstock.com/i/1000x1000/10/04/cartoon-empty-template-cinema-hall-interior-inside-vector-28271004.jpg',
+        },
+        {
+            word:'a toyshop',
+            picture: 'https://learnenglishkids.britishcouncil.org/sites/kids/files/image/RS5407_Toy%20Shop%20col-low.jpg',
+        },
+        {
+            word:'a hairdresser',
+            picture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWYqNsoEE39Qg6PN9adsVGj1wKdP_YNCH0Ow&usqp=CAU',
+        },
+        {
+            word:'a shop',
+            picture: 'https://www.kindpng.com/picc/m/27-276396_magento-store-b2bmage-shopping-spree-shopping-cartoon-hd.png',
+        },
+        {
+            word:'a bridge',
+            picture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTai6rT8ryeLXq549TmtVglOiFQQ1eki488mfnBtH9ucjki4uEQVl7yvXEP5i_p3FiWzHA&usqp=CAU',
+        },
+        {
+            word:'a trolley',
+            picture: 'https://preview.free3d.com/img/2017/08/2279281049898845843/p5k8v60z-900.jpg',
+        },
+        {
+            word:'a pavement',
+            picture: 'https://thumbs.dreamstime.com/b/girl-pavement-talking-phone-illustration-69546696.jpg',
+        },
+        {
+            word:'a bakery',
+            picture: 'https://previews.123rf.com/images/ksenica/ksenica2009/ksenica200900087/155282525-bakery-shop-showcases-with-bread-buns-and-cakes-baker-cartoon-style-.jpg',
+        },
+        {
+            word:'traffic lights',
+            picture: 'https://st.depositphotos.com/1001291/1370/v/950/depositphotos_13707996-stock-illustration-the-set-of-cartoon-traffic.jpg',
+        },
+        {
+            word:'a bench',
+            picture: 'https://toppng.com/uploads/preview/park-bench-cartoon-11553201353bx9hzla9oa.png',
+        },
+        {
+            word:'a supermarket',
+            picture: 'https://st3.depositphotos.com/1037238/13110/v/450/depositphotos_131102446-stock-illustration-supermarket-grocery-store.jpg',
+        },
+        {
+            word:'a bookshop',
+            picture: 'https://image.shutterstock.com/image-illustration/children-running-book-store-building-260nw-1409436317.jpg',
+        },
+        {
+            word:'a zoo',
+            picture: 'https://c8.alamy.com/comp/2C5GHXG/zoo-entrance-gates-cartoon-poster-with-elephant-giraffe-lion-safari-animals-and-visitors-on-territory-vector-illustration-cartoon-style-isolated-2C5GHXG.jpg',
+        },
+        {
+            word:'a road',
+            picture: 'https://thumbs.dreamstime.com/b/road-cartoon-background-47341889.jpg',
+        },
+        {
+            word:'a cafe',
+            picture: 'https://preview.free3d.com/img/2018/11/2269254282979051024/qkbj4mst-900.jpg',
+        },
+        {
+            word:'the Underground',
+            picture: 'https://img.freepik.com/free-vector/subway-train-station-with-floor-stop-sign-chairs-recycle-trash-broom-big-clock-tv-time_82689-95.jpg?w=2000',
+        },
+        {
+            word:'a zebra crossing',
+            picture: 'https://st3.depositphotos.com/6633222/15368/v/600/depositphotos_153689366-stock-illustration-cartoon-boy-helps-grandma-crossing.jpg',
+        },
+        {
+            word:'money: a note, a coin, a wallet',
+            picture: 'https://thumbs.dreamstime.com/b/sticker-cartoon-wallet-spilling-money-creative-illustrated-149180785.jpg',
+        },
+        {
+            word:'a plastic bag',
+            picture: 'https://thumbs.dreamstime.com/b/illustration-bag-plastic-blue-waste-isolated-white-background-cartoon-plastic-bag-waste-garbage-clip-art-pollution-145766304.jpg',
+        },
+        {
+            word:'a sign',
+            picture: 'https://cdn4.vectorstock.com/i/1000x1000/84/13/warning-road-sign-icon-in-cartoon-style-isolated-vector-12908413.jpg',
+        },
+    ],
 }
 
 

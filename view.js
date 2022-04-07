@@ -60,13 +60,12 @@ html=`
 <button onclick="changePage('myself')" class="buttonCategory">My self, Families and Friends</button><br>
 
 <button onclick="changePage('visitMe')" class="buttonCategory">Visit Me</button>
-<button onclick="changePage('celebrations')" class="buttonCategory">Celebrations</button> 
 <button onclick="changePage('makingPlans')" class="buttonCategory">Making Plans</button><br>
 
 
 <button onclick="changePage('animals')" class="notStarted">Animals</button>
 <button onclick="changePage('helloSummer')" class="notStarted">Hello Summer</button>
-
+<button onclick="changePage('celebrations')" class="notStarted">Celebrations</button> 
 
 <button onclick="changePage('grammar')" class="notStarted">Grammar</button>
 <button class='buttonMenu'></button> 

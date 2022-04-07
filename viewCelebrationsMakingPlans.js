@@ -1,34 +1,34 @@
 let txtCelebrations = model.engelskCelebrations;
 let txtMakingPlans = model.engelskMakingPlans;
 
-function celebrations() {
+// function celebrations() {
 
-    html = `
-    <div class="page">
-<div onclick="changePage('home')" class='header'>
-<img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
-<div class='menu'>
-<button onclick="changePage('wordCelebrations')" class='buttonMenu'>Learn words</button> 
-<button onclick="changePage('readCelebrations')" class='buttonMenu'>Read</button> 
-<button onclick="changePage('writeCelebrations')" class='buttonMenu'>Write</button>
-</div>
-<div class='mainContent'>
-<div class="box sb1">
-${txtCelebrations}
+//     html = `
+//     <div class="page">
+// <div onclick="changePage('home')" class='header'>
+// <img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
+// <div class='menu'>
+// <button onclick="changePage('wordCelebrations')" class='buttonMenu'>Learn words</button> 
+// <button onclick="changePage('readCelebrations')" class='buttonMenu'>Read</button> 
+// <button onclick="changePage('writeCelebrations')" class='buttonMenu'>Write</button>
+// </div>
+// <div class='mainContent'>
+// <div class="box sb1">
+// ${txtCelebrations}
 
-</div>
-<img onclick="celebrationsNorwegian()" class='pusur' src='pusur.png' alt= bilde>
+// </div>
+// <img onclick="celebrationsNorwegian()" class='pusur' src='pusur.png' alt= bilde>
 
-</div>
+// </div>
 
-</div>
-
-
+// </div>
 
 
-</div>`
-appDiv.innerHTML = html;
-}
+
+
+// </div>`
+// appDiv.innerHTML = html;
+// }
 
 
 function makingPlans() {
@@ -60,7 +60,34 @@ appDiv.innerHTML = html;
 }
 
 function wordMakingPlans() {
+    html = `
+    <div class="page">
+<div onclick="changePage('home')" class='header'>
+<img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
+<div class='menu'>
+<button onclick="changePage('wordSchool')" class='buttonMenu'>Learn words</button> 
+<button onclick="changePage('readSchool')" class='buttonMenu'>Read</button> 
+<button onclick="changePage('writeSchool')" class='buttonMenu'>Write</button>
+</div>
+<div class='mainContent'>`
 
+for(let i= 0; i <model.makingPlansWords.length; i ++) {
+    let first = i % 3 == 0 ? 'first' : '';
+html += `
+<div class="words ${first}">
+<table><tr>
+<td><img onclick="playSchool(${[i]})" style= width:150px height: 150px; src=${model.makingPlansWords[i].picture}> </td></td>
+${model.makingPlansWords[i].word}</td></tr>
+</table>
+</div>`
+}
+
+
+
+html +=
+`</div>
+</div>  `
+appDiv.innerHTML = html;
 }
 
 function readMakingPlans() {
