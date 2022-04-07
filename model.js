@@ -36,7 +36,7 @@ let model = {
     ],
     
 
-    soundsNumbers: ['/soundNumbers/First.m4a','/soundNumbers/Second.m4a','/soundNumbers/Third.m4a','/soundNumbers/Fourth.m4a','/soundNumbers/Fifth.m4a','/soundNumbers/Sixth.m4a','/soundNumbers/Seventh.m4a','/soundNumbers/Eighth.m4a','/soundNumbers/Ninth.m4a','/soundNumbers/Tenth.m4a',
+    soundsNumbers: ['soundNumbers/First.m4a','soundNumbers/Second.m4a','soundNumbers/Third.m4a','/soundNumbers/Fourth.m4a','/soundNumbers/Fifth.m4a','/soundNumbers/Sixth.m4a','/soundNumbers/Seventh.m4a','/soundNumbers/Eighth.m4a','/soundNumbers/Ninth.m4a','/soundNumbers/Tenth.m4a',
     ],
 
     soundsSchool: ['/soundSchool/Swing.m4a','/soundSchool/Seesaw.m4a','/soundSchool/SkippingRope.m4a','/soundSchool/Hopscotch.m4a','/soundSchool/Slide.m4a','/soundSchool/Dustbin.m4a','/soundSchool/Stone.m4a','/soundSchool/Chalk.m4a','/soundSchool/Caretaker.m4a','/soundSchool/Dinner.m4a','/soundSchool/Lunch.m4a','/soundSchool/FriedEgg.m4a','/soundSchool/BoiledEgg.m4a','/soundSchool/Sandwich.m4a','/soundSchool/FishChips.m4a','/soundSchool/Bacon.m4a','/soundSchool/Sausage.m4a','/soundSchool/Sugar.m4a','/soundSchool/Biscuit.m4a','/soundSchool/Nut.m4a','/soundSchool/Pancakes.m4a','/soundSchool/Pie.m4a','/soundSchool/Cake.m4a',
@@ -47,7 +47,7 @@ let model = {
     numbers: [
     {
         word: 'first',
-        picture: '/ordenstall/1st.png',
+        picture: 'ordenstall/1st.png',
         svar: '',
     },
     {
@@ -57,18 +57,18 @@ let model = {
     },
     {
         word: 'third',
-        picture: '/ordenstall/3rd.png',
+        picture: 'ordenstall/3rd.png',
         svar: '',
     },
 
     {
         word: 'fourth',
-        picture: '/ordenstall/4th.png',
+        picture: 'ordenstall/4th.png',
         svar: '',
     },
     {
         word: 'fifth',
-        picture: '/ordenstall/5th.png',
+        picture: 'ordenstall/5th.png',
         svar: '',
     },
     {
