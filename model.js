@@ -36,13 +36,13 @@ let model = {
     ],
     
 
-    soundsNumbers: ['soundNumbers/First.m4a','soundNumbers/Second.m4a','soundNumbers/Third.m4a','/soundNumbers/Fourth.m4a','/soundNumbers/Fifth.m4a','/soundNumbers/Sixth.m4a','/soundNumbers/Seventh.m4a','/soundNumbers/Eighth.m4a','/soundNumbers/Ninth.m4a','/soundNumbers/Tenth.m4a',
+    soundsNumbers: ['soundNumbers/First.m4a','soundNumbers/Second.m4a','soundNumbers/Third.m4a','soundNumbers/Fourth.m4a','soundNumbers/Fifth.m4a','soundNumbers/Sixth.m4a','soundNumbers/Seventh.m4a','soundNumbers/Eighth.m4a','soundNumbers/Ninth.m4a','soundNumbers/Tenth.m4a',
     ],
 
-    soundsSchool: ['/soundSchool/Swing.m4a','/soundSchool/Seesaw.m4a','/soundSchool/SkippingRope.m4a','/soundSchool/Hopscotch.m4a','/soundSchool/Slide.m4a','/soundSchool/Dustbin.m4a','/soundSchool/Stone.m4a','/soundSchool/Chalk.m4a','/soundSchool/Caretaker.m4a','/soundSchool/Dinner.m4a','/soundSchool/Lunch.m4a','/soundSchool/FriedEgg.m4a','/soundSchool/BoiledEgg.m4a','/soundSchool/Sandwich.m4a','/soundSchool/FishChips.m4a','/soundSchool/Bacon.m4a','/soundSchool/Sausage.m4a','/soundSchool/Sugar.m4a','/soundSchool/Biscuit.m4a','/soundSchool/Nut.m4a','/soundSchool/Pancakes.m4a','/soundSchool/Pie.m4a','/soundSchool/Cake.m4a',
+    soundsSchool: ['soundSchool/Swing.m4a','soundSchool/Seesaw.m4a','soundSchool/SkippingRope.m4a','soundSchool/Hopscotch.m4a','soundSchool/Slide.m4a','soundSchool/Dustbin.m4a','soundSchool/Stone.m4a','soundSchool/Chalk.m4a','soundSchool/Caretaker.m4a','soundSchool/Dinner.m4a','soundSchool/Lunch.m4a','soundSchool/FriedEgg.m4a','soundSchool/BoiledEgg.m4a','soundSchool/Sandwich.m4a','soundSchool/FishChips.m4a','soundSchool/Bacon.m4a','soundSchool/Sausage.m4a','soundSchool/Sugar.m4a','soundSchool/Biscuit.m4a','soundSchool/Nut.m4a','soundSchool/Pancakes.m4a','soundSchool/Pie.m4a','soundSchool/Cake.m4a',
     ],
 
-    soundsMySelf: ['/soundsMySelf/Cheek.m4a', '/soundsMySelf/Back.m4a', '/soundsMySelf/Neck.m4a', '/soundsMySelf/Thumb.m4a', '/soundsMySelf/Stomach.m4a', '/soundsMySelf/Heel.m4a', '/soundsMySelf/Eyebrows.m4a', '/soundsMySelf/Swimsuit.m4a', '/soundsMySelf/SwimmingTrunks.m4a', '/soundsMySelf/Button.m4a', '/soundsMySelf/Pocket.m4a', '/soundsMySelf/Belt.m4a', '/soundsMySelf/Shoelaces.m4a', '/soundsMySelf/Slippers.m4a', '/soundsMySelf/Tights.m4a',],
+    soundsMySelf: ['soundsMySelf/Cheek.m4a', 'soundsMySelf/Back.m4a', 'soundsMySelf/Neck.m4a', 'soundsMySelf/Thumb.m4a', 'soundsMySelf/Stomach.m4a', 'soundsMySelf/Heel.m4a', 'soundsMySelf/Eyebrows.m4a', 'soundsMySelf/Swimsuit.m4a', 'soundsMySelf/SwimmingTrunks.m4a', 'soundsMySelf/Button.m4a', 'soundsMySelf/Pocket.m4a', 'soundsMySelf/Belt.m4a', 'soundsMySelf/Shoelaces.m4a', 'soundsMySelf/Slippers.m4a', 'soundsMySelf/Tights.m4a',],
 
     numbers: [
     {
@@ -73,27 +73,27 @@ let model = {
     },
     {
         word: 'sixth',
-        picture: '/ordenstall/6th.png',
+        picture: 'ordenstall/6th.png',
         svar: '',
     },
     {
         word: 'seventh',
-        picture: '/ordenstall/7th.png',
+        picture: 'ordenstall/7th.png',
         svar: '',
     },
     {
         word: 'eighth',
-        picture: '/ordenstall/8th.png',
+        picture: 'ordenstall/8th.png',
         svar: '',
     },
     {
         word: 'ninth',
-        picture: '/ordenstall/9th.png',
+        picture: 'ordenstall/9th.png',
         svar: '',
     },
     {
         word: 'tenth',
-        picture: '/ordenstall/10th.png',
+        picture: 'ordenstall/10th.png',
         svar: '',
     },
    
