@@ -45,9 +45,10 @@ for(let i= 0; i <model.mySelf.length; i ++) {
     let first = i % 3 == 0 ? 'first' : '';
 html += `
 <div class="words ${first}">
-
-<img onclick="playMySelf(${[i]})" style= width:100px height: 100px; src=${model.mySelf[i].picture} > =
-${model.mySelf[i].word}
+<table><tr>
+<td>
+<img onclick="playMySelf(${[i]})" style= width:100px height: 100px; src=${model.mySelf[i].picture} ></td></td>
+${model.mySelf[i].word}</td></tr></table>
 
 </div>`
 }

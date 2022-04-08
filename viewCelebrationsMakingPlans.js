@@ -76,7 +76,7 @@ for(let i= 0; i <model.makingPlansWords.length; i ++) {
 html += `
 <div class="words ${first}">
 <table><tr>
-<td><img onclick="playSchool(${[i]})" style= width:150px height: 150px; src=${model.makingPlansWords[i].picture}> </td></td>
+<td><img onclick="playMakingPlans(${[i]})" style= width:150px height: 150px; src=${model.makingPlansWords[i].picture}> </td></td>
 ${model.makingPlansWords[i].word}</td></tr>
 </table>
 </div>`

@@ -19,22 +19,6 @@ let model = {
     norskCelebrations: 'Hei. Da er vi klare igjen. La oss feire, det er alltid moro. <br> Og du kan klikke på meg som vanlig for å få teksten på engelsk.',
     norskMakingPlans: 'Hei <br> La oss lage noen planer, og lære enda mer engelsk. Du kan alltid klikke på meg for å få teksten på engelsk.',
    
-   
-
-    
-
-    svar3: '',
-    svar4: '',
-    output: '',
-    translate: [
-        {
-            engelsk: 'So you want to learn some more english?'
-        },
-        {
-            norsk: 'hei',
-        },
-    ],
-    
 
     soundsNumbers: ['soundNumbers/First.m4a','soundNumbers/Second.m4a','soundNumbers/Third.m4a','soundNumbers/Fourth.m4a','soundNumbers/Fifth.m4a','soundNumbers/Sixth.m4a','soundNumbers/Seventh.m4a','soundNumbers/Eighth.m4a','soundNumbers/Ninth.m4a','soundNumbers/Tenth.m4a',
     ],
@@ -43,6 +27,8 @@ let model = {
     ],
 
     soundsMySelf: ['soundsMySelf/Cheek.m4a', 'soundsMySelf/Back.m4a', 'soundsMySelf/Neck.m4a', 'soundsMySelf/Thumb.m4a', 'soundsMySelf/Stomach.m4a', 'soundsMySelf/Heel.m4a', 'soundsMySelf/Eyebrows.m4a', 'soundsMySelf/Swimsuit.m4a', 'soundsMySelf/SwimmingTrunks.m4a', 'soundsMySelf/Button.m4a', 'soundsMySelf/Pocket.m4a', 'soundsMySelf/Belt.m4a', 'soundsMySelf/Shoelaces.m4a', 'soundsMySelf/Slippers.m4a', 'soundsMySelf/Tights.m4a',],
+
+    soundsMakingPlans: ['soundsMakingPlans/Town.m4a','soundsMakingPlans/Pond.m4a','soundsMakingPlans/Bus.m4a','soundsMakingPlans/Curch.m4a','soundsMakingPlans/Park.m4a','soundsMakingPlans/Police.m4a','soundsMakingPlans/Cinema.m4a','soundsMakingPlans/Toyshop.m4a','soundsMakingPlans/Hairdresser.m4a','soundsMakingPlans/Shop.m4a','soundsMakingPlans/Bridge.m4a','soundsMakingPlans/Trolley.m4a','soundsMakingPlans/Pavement.m4a','soundsMakingPlans/Bakery.m4a','soundsMakingPlans/TrafficLights.m4a','soundsMakingPlans/Bench.m4a','soundsMakingPlans/Supermarket.m4a','soundsMakingPlans/bookshop.m4a','soundsMakingPlans/Zoo.m4a','soundsMakingPlans/Road.m4a','soundsMakingPlans/Cafe.m4a','soundsMakingPlans/Underground.m4a','soundsMakingPlans/Zebra.m4a','soundsMakingPlans/Money.m4a','soundsMakingPlans/PlasticBag.m4a','soundsMakingPlans/Sign.m4a'],
 
     numbers: [
     {

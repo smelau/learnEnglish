@@ -127,12 +127,13 @@ function wordSchool() {
 <div class='mainContent'>`
 
 for(let i= 0; i <model.school.length; i ++) {
-    let first = i % 2 == 0 ? 'first' : '';
+    let first = i % 3 == 0 ? 'first' : '';
 html += `
 <div class="words ${first}">
-
-<img onclick="playSchool(${[i]})" style= width:150px height: 150px; src=${model.school[i].picture} > =
-${model.school[i].word}
+<table><tr>
+<td>
+<img onclick="playSchool(${[i]})" style= width:150px height: 150px; src=${model.school[i].picture} ></td></td>
+${model.school[i].word}</td></tr></table>
 
 </div>`
 }
@@ -271,8 +272,12 @@ for (let i = 0; i < model.numbers.length; i++) {
     let first = i % 3 == 0 ? 'first' : '';
     html += `
     <div class= 'words ${first}'>
-    <img onclick="play(${[i]})" class='img' src="${model.numbers[i].picture}"> =
-    ${model.numbers[i].word} </div>
+    <table>
+    <tr>
+        <td>
+    <img onclick="play(${[i]})" class='img' src="${model.numbers[i].picture}"></td></td>
+    ${model.numbers[i].word} </td></tr></table>
+    </div>
     `
     
 }

@@ -86,6 +86,10 @@ function playMySelf(index) {
         music.play();
 }
 
+function playMakingPlans(index) {
+    const music = new Audio(model.soundsMakingPlans[index])
+    music.play();
+}
 
 //---------------------------------------------
 //Funksjoner memorygame
