@@ -472,6 +472,14 @@ let model = {
             picture: 'https://cdn4.vectorstock.com/i/1000x1000/84/13/warning-road-sign-icon-in-cartoon-style-isolated-vector-12908413.jpg',
         },
     ],
+    makingPlansPic: [
+        {
+            volume:"volume-removebg-preview.png",
+            pic1:"makingPlansPics/childrenPlay.png",
+            pic2:"makingPlansPics/childrenPlay2.png",
+            pic3:"makingplansPics/childrenPlay3.png",
+        },
+    ],
 }
 
 

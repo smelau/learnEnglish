@@ -38,7 +38,7 @@ function makingPlans() {
 <img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
 <button onclick="changePage('wordMakingPlans')" class='buttonMenu'>Learn words</button> 
-<button onclick="changePage('readMakingPlans')" class='buttonMenu'>Read</button> 
+<button onclick="changePage('readMakingPlans')" class='buttonMenu'>Listen</button> 
 <button onclick="changePage('writeMakingPlans')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>
@@ -66,7 +66,7 @@ function wordMakingPlans() {
 <img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
 <button onclick="changePage('wordSchool')" class='buttonMenu'>Learn words</button> 
-<button onclick="changePage('readSchool')" class='buttonMenu'>Read</button> 
+<button onclick="changePage('readSchool')" class='buttonMenu'>Listen</button> 
 <button onclick="changePage('writeSchool')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>`
@@ -91,8 +91,37 @@ appDiv.innerHTML = html;
 }
 
 function readMakingPlans() {
+    html = `
+    <div class="page">
+<div onclick="changePage('home')" class='header'><img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
+<div class='menu'>
+<button onclick="changePage('wordMakingPlans')" class='buttonMenu'>Learn words</button> 
+<button onclick="changePage('readMakingPlans')" class='buttonMenu'>Listen</button> 
+<button onclick="changePage('writeMakingPlans)" class='buttonMenu'>Write</button>
+</div>
+<div class='mainContent' "readSentences"> `
 
+    for(let i= 0; i <model.makingPlansPic.length; i++) {
+        html += `
+            <div class="listen">
+            <img class="volumePic" onclick= "playPics(${[i]})" src=${model.makingPlansPic[i].volume}></br>
+            <img class"pic1" src=${model.makingPlansPic[i].pic1}>
+            <img class"pic2" src=${model.makingPlansPic[i].pic2}>
+            <img class"pic3" src=${model.makingPlansPic[i].pic3}>
+            </div>
+        `
+    }
+        
+html += `
+</div>
+</div>
+
+
+
+</div>`
+    appDiv.innerHTML = html;
 }
+
 
 function writeMakingPlans() {
     html = /*html*/`
@@ -100,7 +129,7 @@ function writeMakingPlans() {
 <div onclick="changePage('home')" class='header'><img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
 <button onclick="changePage('visitMeWords')" class='buttonMenu'>Learn words</button> 
-<button onclick="changePage('visitMeRead')" class='buttonMenu'>Read</button> 
+<button onclick="changePage('visitMeRead')" class='buttonMenu'>Listen</button> 
 <button onclick="changePage('visitMeWrite')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>

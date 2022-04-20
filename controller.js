@@ -101,12 +101,14 @@ function startGame() {
         card.style.order = randomsPos;
     });
     cards.forEach(card => card.addEventListener('click', flipCard));
+    cards.forEach(card => card.classList.remove('flip'));
 }
 
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
+let pairs = 0;
 
 function flipCard() {
     if (lockBoard) return;
@@ -137,7 +139,11 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    pairs++;
+    setTimeout(()=> {
+        if(pairs == 8) alert('hei');
 
+    },800);
     resetBoard();
 }
 
@@ -174,6 +180,13 @@ function checkMakePlans(index) {
 function setValueMakePlans(verdi, index) {
     model.makingPlans[index].sentenceInput = verdi;
 }
+
+
+//Modal MakingPlans
+
+
+
+
 
 // function randomSentences() {
 //     Math.floor(Math.random() * model.makingPlans.length)
