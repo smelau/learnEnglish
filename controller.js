@@ -91,6 +91,13 @@ function playMakingPlans(index) {
     music.play();
 }
 
+function playPics(index){
+    cons = music = new Audio(model.soundsEffects[index])
+    music.play();
+}
+
+
+
 //---------------------------------------------
 //Funksjoner memorygame
 function startGame() {

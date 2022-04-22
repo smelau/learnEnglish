@@ -30,6 +30,8 @@ let model = {
 
     soundsMakingPlans: ['soundsMakingPlans/Town.m4a','soundsMakingPlans/Pond.m4a','soundsMakingPlans/Bus.m4a','soundsMakingPlans/Curch.m4a','soundsMakingPlans/Park.m4a','soundsMakingPlans/Police.m4a','soundsMakingPlans/Cinema.m4a','soundsMakingPlans/Toyshop.m4a','soundsMakingPlans/Hairdresser.m4a','soundsMakingPlans/Shop.m4a','soundsMakingPlans/Bridge.m4a','soundsMakingPlans/Trolley.m4a','soundsMakingPlans/Pavement.m4a','soundsMakingPlans/Bakery.m4a','soundsMakingPlans/TrafficLights.m4a','soundsMakingPlans/Bench.m4a','soundsMakingPlans/Supermarket.m4a','soundsMakingPlans/bookshop.m4a','soundsMakingPlans/Zoo.m4a','soundsMakingPlans/Road.m4a','soundsMakingPlans/Cafe.m4a','soundsMakingPlans/Underground.m4a','soundsMakingPlans/Zebra.m4a','soundsMakingPlans/Money.m4a','soundsMakingPlans/PlasticBag.m4a','soundsMakingPlans/Sign.m4a'],
 
+    soundsEffects: ['soundsEffects/correct.mp3','soundsEffects/wrong.mp3'],
+
     numbers: [
     {
         word: 'first',
@@ -478,6 +480,24 @@ let model = {
             pic1:"makingPlansPics/childrenPlay.png",
             pic2:"makingPlansPics/childrenPlay2.png",
             pic3:"makingplansPics/childrenPlay3.png",
+        },
+        {
+            volume:"volume-removebg-preview.png",
+            pic1:"makingPlansPics/girl.png",
+            pic2:"makingPlansPics/girl2.png",
+            pic3:"makingplansPics/girl.png",
+        },
+        {
+            volume:"volume-removebg-preview.png",
+            pic1:"makingPlansPics/bath.png",
+            pic2:"makingPlansPics/bath2.png",
+            pic3:"makingplansPics/bath3.png",
+        },
+        {
+            volume:"volume-removebg-preview.png",
+            pic1:"makingPlansPics/pond.png",
+            pic2:"makingPlansPics/pond2.png",
+            pic3:"makingplansPics/pond3.png",
         },
     ],
 }

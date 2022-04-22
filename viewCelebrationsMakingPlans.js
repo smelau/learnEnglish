@@ -104,10 +104,13 @@ function readMakingPlans() {
     for(let i= 0; i <model.makingPlansPic.length; i++) {
         html += `
             <div class="listen">
-            <img class="volumePic" onclick= "playPics(${[i]})" src=${model.makingPlansPic[i].volume}></br>
-            <img class"pic1" src=${model.makingPlansPic[i].pic1}>
-            <img class"pic2" src=${model.makingPlansPic[i].pic2}>
-            <img class"pic3" src=${model.makingPlansPic[i].pic3}>
+            <table class="tableMakingPlans"><tr>
+            <td colspan="2">
+            <img class="volumePic" onclick="playPics(${[i]})" src=${model.makingPlansPic[i].volume}></td></tr><tr>
+           <td> <img class="pic1" src=${model.makingPlansPic[i].pic1}></td>
+           <td> <img class="pic2" src=${model.makingPlansPic[i].pic2}></td>
+           <td> <img class="pic3" src=${model.makingPlansPic[i].pic3}></td>
+            </tr></table>
             </div>
         `
     }
@@ -119,6 +122,19 @@ html += `
 
 
 </div>`
+//Her skrevet uten for løkke for å teste
+html += /*html*/`
+<div class="listen">
+<table class="tableMakingPlans"><tr>
+            <td colspan="2">
+            <img class="volumePic" onclick="playPics(index)" src="volume-removebg-preview.png"></td></tr><tr>
+           <td> <img class="pic1" src="makingPlansPics/childrenPlay.png"></td>
+           <td> <img class="pic2" src="makingPlansPics/childrenPlay2.png"></td>
+           <td> <img class="pic3" src="makingPlansPics/childrenPlay3.png"></td>
+            </tr></table>
+
+</div>
+`
     appDiv.innerHTML = html;
 }
 
