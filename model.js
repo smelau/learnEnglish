@@ -1,5 +1,7 @@
 let html = ' ';
 
+let userAnswer = "";
+let randomQuestionIndex = null;
 
 let model = {
     aktivside: 'home',
@@ -30,7 +32,6 @@ let model = {
 
     soundsMakingPlans: ['soundsMakingPlans/Town.m4a','soundsMakingPlans/Pond.m4a','soundsMakingPlans/Bus.m4a','soundsMakingPlans/Curch.m4a','soundsMakingPlans/Park.m4a','soundsMakingPlans/Police.m4a','soundsMakingPlans/Cinema.m4a','soundsMakingPlans/Toyshop.m4a','soundsMakingPlans/Hairdresser.m4a','soundsMakingPlans/Shop.m4a','soundsMakingPlans/Bridge.m4a','soundsMakingPlans/Trolley.m4a','soundsMakingPlans/Pavement.m4a','soundsMakingPlans/Bakery.m4a','soundsMakingPlans/TrafficLights.m4a','soundsMakingPlans/Bench.m4a','soundsMakingPlans/Supermarket.m4a','soundsMakingPlans/bookshop.m4a','soundsMakingPlans/Zoo.m4a','soundsMakingPlans/Road.m4a','soundsMakingPlans/Cafe.m4a','soundsMakingPlans/Underground.m4a','soundsMakingPlans/Zebra.m4a','soundsMakingPlans/Money.m4a','soundsMakingPlans/PlasticBag.m4a','soundsMakingPlans/Sign.m4a'],
 
-    soundsEffects: ['soundsEffects/correct.mp3','soundsEffects/wrong.mp3'],
 
     numbers: [
     {
@@ -282,92 +283,10 @@ let model = {
         }, 
     ],
 
-    makingPlans: [
-        {
-            sentence: 'town? to you Are  going',
-            sentenceInput: '',
-            sentenceCorrect: 'Are you going to town?',
-        },
-        {
-            sentence: 'church goes friend My sundays. to on',
-            sentenceInput: '',
-            sentenceCorrect: 'My friend goes to church on sundays.',
-        },
-        {
-            sentence: 'bus take I the school. to',
-            sentenceInput: '',
-            sentenceCorrect: 'I take the bus to school.',
-        },
-        {
-            sentence: 'park. walk I dog my  in the',
-            sentenceInput: '',
-            sentenceCorrect: 'I walk my dog in the park.',
-        },
-        {
-            sentence: 'trolley shopping. when go need I a  I',
-            sentenceInput: '',
-            sentenceCorrect: 'I need a trolley when I go shopping.',
-        },
-        {
-            sentence: 'like I to cafe. to go the ',
-            sentenceInput: '',
-            sentenceCorrect: 'I like to go to the cafe.',
-        },
-        {
-            sentence: 'It bakery. good in smells the',
-            sentenceInput: '',
-            sentenceCorrect: 'It smells good in the bakery.',
-        },
-        {
-            sentence: 'at Look bench. that',//
-            sentenceInput: '',
-            sentenceCorrect: 'Should we sit at that bench?',
-        },
-        {
-            sentence: 'There police officer. is a',
-            sentenceInput: '',
-            sentenceCorrect: 'There is a police officer.',
-        },
-        {
-            sentence: 'pond. a little Thats',
-            sentenceInput: '',
-            sentenceCorrect: 'Thats a little pond.',
-        },
-        {
-            sentence: 'Let us the cinema. go to',//
-            sentenceInput: '',
-            sentenceCorrect: 'We should go to the cinema.',
-        },
-        {
-            sentence: 'bridge. long What a',
-            sentenceInput: '',
-            sentenceCorrect: 'What a long bridge.',
-        },
-        {
-            sentence: 'plastic need I a bag.',
-            sentenceInput: '',
-            sentenceCorrect: 'I need a plastic bag.',
-        },
-        {
-            sentence: 'Take coin. that ',//
-            sentenceInput: '',
-            sentenceCorrect: 'Flip a coin.',
-        },
-        {
-            sentence: 'I to the need go hairdresser. to',
-            sentenceInput: '',
-            sentenceCorrect: 'I need to go to the hairdresser.',
-        },{
-            sentence: 'I zoo. the love',
-            sentenceInput: '',
-            sentenceCorrect: 'I love the zoo.',
-        },
-        {
-            sentence: 'The are traffic red. lights',
-            sentenceInput: '',
-            sentenceCorrect: 'The traffic light is red.',
-        },
-    ],
+makingPlansWrite:['town? to you Are  going','church goes friend My sundays. to on','bus take I the school. to','park. walk I dog my  in the', 'trolley shopping. when go need I a  I', 'like I to cafe. to go the', 'It bakery. good in smells the','at Look bench. that','There police officer. is a','pond. a little Thats','Let us the cinema. go to','bridge. long What a','plastic need I a bag.','Take coin. that ','I to the need go hairdresser. to','I zoo. the love','The are traffic red. lights', ],
+
+makingPlansCorrect:['Are you going to town?', 'My friend goes to church on sundays.','I take the bus to school.','I walk my dog in the park.', 'I need a trolley when I go shopping.','I like to go to the cafe.','It smells good in the bakery.','Should we sit at that bench?','There is a police officer.','Thats a little pond.','We should go to the cinema.','What a long bridge.','I need a plastic bag.','Flip a coin.','I need to go to the hairdresser.','I love the zoo.','The traffic light is red.',],
+
     makingPlansWords: [
         {
             word:'a town',
@@ -485,7 +404,7 @@ let model = {
             volume:"volume-removebg-preview.png",
             pic1:"makingPlansPics/girl.png",
             pic2:"makingPlansPics/girl2.png",
-            pic3:"makingplansPics/girl.png",
+            pic3:"makingplansPics/girl3.png",
         },
         {
             volume:"volume-removebg-preview.png",

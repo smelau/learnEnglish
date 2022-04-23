@@ -179,7 +179,12 @@ function visitMeWords() {
 <button onclick="changePage('visitMeWrite')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>
-<h4>Push the button to start the game</h4><button class="memButton" onclick="startGame()">Start</button><button class="memButton" onclick="changePage('visitMeWords')">Try again</button>
+
+    <div class="overskriftVisit">
+        <h4>Push the button to start the game</h4>
+        <button class="memButton" onclick="startGame()">New Game</button>
+    </div>
+
 <section class='memory-game'>
 
 <div class='memory-card' data-framework ='armchair'>

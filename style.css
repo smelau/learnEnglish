@@ -226,22 +226,27 @@ h4 {
 }
 
 .makingPlansSentence {
-  font-size: 16px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  float: left;
-  margin-right: auto;
-  margin-left: auto;
+  width:450px; 
+  margin:0 auto;
   padding-right: 3%;
   padding-left: 3%;
   padding-bottom: 6%;
 }
 
 .inputMakingPlans {
-  width: 300px;
+  width: 500px;
 }
 
 .listen{
 
+}
+.descriptionMakingPlans{
+  font-size: 28px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
 }
 
 .volumePic{
@@ -253,6 +258,13 @@ h4 {
 .tableMakingPlans{
 margin-bottom: 10%;
   width: 100%;
+}
+
+.overskriftVisit{
+  height: 100px;
+  position: relative;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 

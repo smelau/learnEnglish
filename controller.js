@@ -96,6 +96,11 @@ function playPics(index){
     music.play();
 }
 
+//Lyd som er utenfor for-løkke
+
+function playAudio(url) {
+    new Audio(url).play();
+  }
 
 
 //---------------------------------------------
@@ -148,7 +153,7 @@ function disableCards() {
     secondCard.removeEventListener('click', flipCard);
     pairs++;
     setTimeout(()=> {
-        if(pairs == 8) alert('hei');
+        if(pairs == 8) alert('You win!');
 
     },800);
     resetBoard();
@@ -163,42 +168,49 @@ function unflipCards() {
         lockBoard = false;
     }, 1500);
 }
-//Trenger en funksjon som gjør noe når det er riktig
-function win(){
-   if([firstCard, secondCard] = [true, true]) {alert('hei')} ;
-    
-}
-// Trenger en funksjon som gjør at man kan starte på nytt og alt nulles. Foreløpig har jeg kun updateview
-function startOver(){
-  
-}
+
 
 //Funksjoner til Make plans- write: 
 
-function checkMakePlans(index) {
-    let inputVal = document.getElementById(index);
-    if(model.makingPlans[index].sentenceInput == model.makingPlans[index].sentenceCorrect) 
-    { inputVal.style.backgroundColor = "green"; }
-    else inputVal.style.backgroundColor = "red";
-}
-
-
-
-function setValueMakePlans(verdi, index) {
-    model.makingPlans[index].sentenceInput = verdi;
-}
-
-
-//Modal MakingPlans
-
-
-
-
-
-// function randomSentences() {
-//     Math.floor(Math.random() * model.makingPlans.length)
-   
+// function checkMakePlans(index) {
+//     let inputVal = document.getElementById(index);
+//     if(model.makingPlans[index].sentenceInput == model.makingPlans[index].sentenceCorrect) 
+//     { inputVal.style.backgroundColor = "green"; }
+//     else inputVal.style.backgroundColor = "red";
 // }
+
+// function setValueMakePlans(verdi, index) {
+//     model.makingPlans[index].sentenceInput = verdi;
+// }
+
+
+
+//Hvorfor kommer det to spørsmål på først, men videre bare ett? 
+let numberCorrect = 0;
+
+function getRandomQuestion() {
+    userAnswer = "";
+    randomQuestionIndex = Math.floor(Math.random() * model.makingPlansWrite.length);
+    writeMakingPlans();
+}
+
+function svar() {
+    let inputVal = document.getElementById('answerCheck');
+    if (userAnswer == model.makingPlansCorrect[randomQuestionIndex]) {
+        inputVal.style.backgroundColor = "green"; }
+    else inputVal.style.backgroundColor = "red";
+
+    if(userAnswer == model.makingPlansCorrect[randomQuestionIndex]){
+        numberCorrect++;
+    }
+    setTimeout(()=> {
+        if (numberCorrect == 5) alert('5 correct! Keep up the good work :)');
+
+    },800);
+   
+}
+
+
 
 
 

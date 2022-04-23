@@ -65,9 +65,9 @@ function wordMakingPlans() {
 <div onclick="changePage('home')" class='header'>
 <img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
-<button onclick="changePage('wordSchool')" class='buttonMenu'>Learn words</button> 
-<button onclick="changePage('readSchool')" class='buttonMenu'>Listen</button> 
-<button onclick="changePage('writeSchool')" class='buttonMenu'>Write</button>
+<button onclick="changePage('wordMakingPlans')" class='buttonMenu'>Learn words</button> 
+<button onclick="changePage('readMakingPlans')" class='buttonMenu'>Listen</button> 
+<button onclick="changePage('writeMakingPlans')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>`
 
@@ -91,50 +91,60 @@ appDiv.innerHTML = html;
 }
 
 function readMakingPlans() {
-    html = `
+    html = /*html*/ `
     <div class="page">
 <div onclick="changePage('home')" class='header'><img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
 <button onclick="changePage('wordMakingPlans')" class='buttonMenu'>Learn words</button> 
 <button onclick="changePage('readMakingPlans')" class='buttonMenu'>Listen</button> 
-<button onclick="changePage('writeMakingPlans)" class='buttonMenu'>Write</button>
+<button onclick="changePage('writeMakingPlans')" class='buttonMenu'>Write</button>
 </div>
-<div class='mainContent' "readSentences"> `
+<div class='mainContent' "readSentences"> 
 
-    for(let i= 0; i <model.makingPlansPic.length; i++) {
-        html += `
-            <div class="listen">
-            <table class="tableMakingPlans"><tr>
-            <td colspan="2">
-            <img class="volumePic" onclick="playPics(${[i]})" src=${model.makingPlansPic[i].volume}></td></tr><tr>
-           <td> <img class="pic1" src=${model.makingPlansPic[i].pic1}></td>
-           <td> <img class="pic2" src=${model.makingPlansPic[i].pic2}></td>
-           <td> <img class="pic3" src=${model.makingPlansPic[i].pic3}></td>
-            </tr></table>
-            </div>
-        `
-    }
-        
-html += `
-</div>
-</div>
+        <div class="descriptionMakingPlans">
+        Click on the volume sign to listen, then click on the correct picture.
+        </div>
 
-
-
-</div>`
-//Her skrevet uten for løkke for å teste
-html += /*html*/`
-<div class="listen">
+    <div class="listen">
 <table class="tableMakingPlans"><tr>
             <td colspan="2">
-            <img class="volumePic" onclick="playPics(index)" src="volume-removebg-preview.png"></td></tr><tr>
-           <td> <img class="pic1" src="makingPlansPics/childrenPlay.png"></td>
-           <td> <img class="pic2" src="makingPlansPics/childrenPlay2.png"></td>
-           <td> <img class="pic3" src="makingPlansPics/childrenPlay3.png"></td>
+            <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundChildren.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+           <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic1" src="makingPlansPics/childrenPlay.png"></td>
+           <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic2" src="makingPlansPics/childrenPlay2.png"></td>
+           <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic3" src="makingPlansPics/childrenPlay3.png"></td>
             </tr></table>
 
+    <table class="tableMakingPlans"><tr>
+        <td colspan="2">
+            <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundGirl.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+           <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic1" src="makingPlansPics/girl3.png"></td>
+           <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic2" src="makingPlansPics/girl2.png"></td>
+           <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic3" src="makingPlansPics/girl.png"></td>
+            </tr></table>
+
+            <table class="tableMakingPlans"><tr>
+        <td colspan="2">
+            <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundBath.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+           <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic1" src="makingPlansPics/bath.png"></td>
+           <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic2" src="makingPlansPics/bath2.png"></td>
+           <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic3" src="makingPlansPics/bath3.png"></td>
+            </tr></table>
+
+            <table class="tableMakingPlans"><tr>
+            <td colspan="2">
+                <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundPond.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+               <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic1" src="makingPlansPics/pond.png"></td>
+               <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic2" src="makingPlansPics/pond2.png"></td>
+               <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic3" src="makingPlansPics/pond3.png"></td>
+                </tr></table>
 </div>
-`
+
+</div>
+</div>
+
+</div>`
+
+
     appDiv.innerHTML = html;
 }
 
@@ -144,24 +154,35 @@ function writeMakingPlans() {
     <div class="page">
 <div onclick="changePage('home')" class='header'><img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
-<button onclick="changePage('visitMeWords')" class='buttonMenu'>Learn words</button> 
-<button onclick="changePage('visitMeRead')" class='buttonMenu'>Listen</button> 
-<button onclick="changePage('visitMeWrite')" class='buttonMenu'>Write</button>
+<button onclick="changePage('wordMakingPlans')" class='buttonMenu'>Learn words</button> 
+<button onclick="changePage('readMakingPlans')" class='buttonMenu'>Listen</button> 
+<button onclick="changePage('writeMakingPlans')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>
 <h3>Write the words in the right order to make a sentence.</h3>`
 
-for(let i = 0; i < model.makingPlans.length; i++){
+if (randomQuestionIndex == null) getRandomQuestion(); {
+     html +=`
+     <div class="makingPlansSentence">${model.makingPlansWrite[randomQuestionIndex]}<br>
+     <input style="font-size: 24px; class="inputMakingPlans" id="answerCheck" type="text" placeholder="Type here" oninput="userAnswer = this.value"></input><br>
+     <button class="makingPlansSentenceBtn" onclick="svar()">Check answer</button><br><br>
+     <button class="makingPlansSentenceBtn" onclick="getRandomQuestion()">Next</button><br><br></div>
+     `
     
-    let first = i % 2 == 0 ? 'first' : '';
-    html +=  /*html*/`
-    <div class="makingPlansSentence">
-    ${model.makingPlans[i].sentence} <br>
-    <input class="inputMakingPlans" type ="text" oninput="setValueMakePlans(this.value, ${i})" style="font-size: 24px;" id="${i}">
-    <button class="makingPlansSentenceBtn" onclick="checkMakePlans(${i})">Check answer</button>
-    </div>
-    `
 }
+
+
+// for(let i = 0; i < model.makingPlans.length; i++){
+    
+//     let first = i % 2 == 0 ? 'first' : '';
+//     html +=  /*html*/`
+//     <div class="makingPlansSentence">
+//     ${model.makingPlans[i].sentence} <br>
+//     <input class="inputMakingPlans" type ="text" oninput="setValueMakePlans(this.value, ${i})" style="font-size: 24px;" id="${i}">
+//     <button class="makingPlansSentenceBtn" onclick="checkMakePlans(${i})">Check answer</button>
+//     </div>
+//     `
+// }
 
 
 
