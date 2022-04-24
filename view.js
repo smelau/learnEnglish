@@ -52,7 +52,7 @@ html=`
 <div class='menu'></div>
 <div class='mainContent'>
 <div class='options'>
-<h2>Chose category</h2>
+<h2>Choose a category</h2>
 
 
 <button onclick="changePage('numbers')" class="buttonCategory">Numbers</button>
@@ -61,15 +61,6 @@ html=`
 
 <button onclick="changePage('visitMe')" class="buttonCategory">Visit Me</button>
 <button onclick="changePage('makingPlans')" class="buttonCategory">Making Plans</button><br>
-
-
-<button onclick="changePage('animals')" class="notStarted">Animals</button>
-<button onclick="changePage('helloSummer')" class="notStarted">Hello Summer</button>
-<button onclick="changePage('celebrations')" class="notStarted">Celebrations</button> 
-
-<button onclick="changePage('grammar')" class="notStarted">Grammar</button>
-<button class='buttonMenu'></button> 
-
 
 </div>
 
@@ -81,6 +72,14 @@ html=`
 
 `
 ;
+
+// <button onclick="changePage('animals')" class="notStarted">Animals</button>
+// <button onclick="changePage('helloSummer')" class="notStarted">Hello Summer</button>
+// <button onclick="changePage('celebrations')" class="notStarted">Celebrations</button> 
+
+// <button onclick="changePage('grammar')" class="notStarted">Grammar</button>
+// <button class='buttonMenu'></button> 
+
 
 appDiv.innerHTML = html;
 }
@@ -157,7 +156,7 @@ function readSchool() {
 </div>
 <div class='mainContent'><div class="readSentences">
 
-<p> We have a swing and slide on the school, but we do not have any seesaw. 
+<p> We have a swing and slide at the school, but we do not have any seesaw. 
 <br><br>
 
 Sometimes I like to jump with a skipping rope in the breakes, or do the hopscotch.
@@ -173,7 +172,7 @@ I love fried eggs and bacon, but on the packed lunch it will be less messy if I 
 
 For dinner I like to eat pancakes, fish and chips, or a sussage. And for a dessert I would like a apple pie or a cake. <br><br>
 
-Most desserts have sugar in them. But I can not eat nuts, because I can not stand it.
+Squirrels like to eat nuts. When we bake a cake, we use sugar.
 <br><br>
 
 
@@ -200,7 +199,7 @@ function writeSchool(){
 <button onclick="changePage('writeSchool')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>
-<h1>Practice writing the words</h1>`
+<h1>Practice writing these words</h1>`
 
 for(let i = 0; i <model.school.length; i++){
     let first = i % 2 == 0 ? 'first' : '';
@@ -265,7 +264,7 @@ function wordNumbers(){
 <div class='mainContent'>`
 
 html += `
-<h3>Click on the pictures to hear</h3>
+<h3>Click on the pictures to listen</h3>
 `
 
 for (let i = 0; i < model.numbers.length; i++) {
@@ -301,23 +300,23 @@ function readNumbers() {
 </div>
     <div class='mainContent'><div class=readSentences>
 <p> 
-The first day in the week is monday. On the 1th of April you can try to fool your friends and family. <br><br>
+The first day in the week is Monday. On the 1th of April you can try to fool your friends and family. <br><br>
 
-The second month in the year is february. The livingroom is in teh 2nd floor in the house.
+The second month in the year is February. The livingroom is on the 2nd floor in the house.
 <br><br>
 
 If you come in third place, you will get a bronze medal. In the 3rd grade we learned a lot. 
 <br><br>
 
-The fourth day in the week is thursday. The 4th letter in the alphabeth is D. 
+The fourth day in the week is Thursday. The 4th letter in the alphabeth is D. 
 <br><br>
 
-After our fifth goal, we had to win the match. Do you think you will change classroom in the 5h grade? <br><br>
+This is the fifth time I tell you to do your homework. Do you think you will change classroom in the 5th grade? <br><br>
 
-It is in the sixth floor, lets take the lift. Somebodys birthday is on the 6th of July. 
+The room is on the sixth floor. The football match is on the 6th of July. 
 <br><br>
 
-The seventh month of the year is July. The 7th grade will be the last at Jordet Skole. 
+The seventh month of the year is July. The 7th grade will be your last year at Jordet Skole. 
 <br><br>
 
 I usually get up at eight in the weekends. You will start at Brunla when you start in the 8th grade. <br><br>
@@ -325,7 +324,7 @@ I usually get up at eight in the weekends. You will start at Brunla when you sta
 September is the ninth month of the year. I am going on a vecation on the 9th of June. 
 <br><br>
 
-What is the tenth month in the year? The last one you will read is the 10th. 
+What is the tenth month in the year? The dance show is on the 10th of September. 
 
 </p>
     </div></div>
@@ -347,7 +346,7 @@ function writeNumbers(){
 <button onclick="changePage('writeNumbers')" class='buttonMenu'>Write</button>
 </div>
 <div class='mainContent'>
-<h1>Practice writing the words</h1>`
+<h1>Practice writing these words</h1>`
 
 for(let i = 0; i <model.numbers.length; i++){
     let first = i % 2 == 0 ? 'first' : '';

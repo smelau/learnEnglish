@@ -74,15 +74,15 @@ function readmyself() {
 <div class='mainContent readSentences'> 
 
 <p> 
-There are many different names for body parts. Cheeck, back, neck and thumb is some of them. 
+There are many different names for the body parts. Cheeck, back, neck and thumb are some of them. 
 <br><br>
 
-I think I would have looked pretty stupid without eyebrows and what would it have been like to walk without a heel.<br><br>
+I think I would have looked pretty stupid without eyebrows, and what would it have been like to walk without a heel.<br><br>
 
-In the summer I love to take e swim. Often the girls use a swinsuit and the boys swimming trunks. 
+In the summer I love to take a swim. Often the girls use a swinsuit and the boys use swimming trunks. 
 <br><br>
 
-On my tights I do not have a pocket or a button. And there are no shoelaces on my slippers. 
+On my tights I do not have a pocket or a button. There are no shoelaces on my slippers. 
 <br><br>
 
 
@@ -312,7 +312,7 @@ function visitMeRead() {
 <div class='mainContent readSentences'>
 
 <p> 
- In my livingroom I have a sofa and an armchair. The table stands on a carpet. <br> Against the wall we have a cupboard and in the windows we have some nice green curtains. <br> If I go up the stairs and to the right I can go in to my room.<br> In my room I have a large bed, a wordrobe for all my clothes, and a mirror. <br> We do also have a bathroom upstairs. In the mornings I always go on the toilet and take a shower.<br> And my mom is the one who uses the washing machine.<br>
+ In my livingroom I have a sofa and an armchair. The table stands on a carpet. <br> Against the wall we have a cupboard, and in the windows we have some nice green curtains. <br> If I go up the stairs and to the right, I can go in to my room.<br> In my room I have a large bed, a wardrobe for all my clothes and a mirror. <br> We also have a bathroom upstairs. In the mornings I always go to the toilet and take a shower.<br> My mom is the one who uses the washing machine.<br>
 
 </p>
 </div>
