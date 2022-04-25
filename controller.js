@@ -170,32 +170,18 @@ function unflipCards() {
 }
 
 
-//Funksjoner til Make plans- write: 
-
-// function checkMakePlans(index) {
-//     let inputVal = document.getElementById(index);
-//     if(model.makingPlans[index].sentenceInput == model.makingPlans[index].sentenceCorrect) 
-//     { inputVal.style.backgroundColor = "green"; }
-//     else inputVal.style.backgroundColor = "red";
-// }
-
-// function setValueMakePlans(verdi, index) {
-//     model.makingPlans[index].sentenceInput = verdi;
-// }
-
-
-
-//Hvorfor kommer det to spørsmål på først, men videre bare ett? 
+//Funksjoner og variabler som hører til Write making plans
 let numberCorrect = 0;
 
 function getRandomQuestion() {
     userAnswer = "";
     randomQuestionIndex = Math.floor(Math.random() * model.makingPlansWrite.length);
-    writeMakingPlans();
+    writeMakingPlans(); 
 }
 
 function svar() {
     let inputVal = document.getElementById('answerCheck');
+
     if (userAnswer == model.makingPlansCorrect[randomQuestionIndex]) {
         inputVal.style.backgroundColor = "green"; }
     else inputVal.style.backgroundColor = "red";
@@ -207,62 +193,5 @@ function svar() {
         if (numberCorrect == 5) alert('5 correct! Keep up the good work :)');
 
     },800);
-   
-}
-
-
-
-
-
-
-
-
-
-// Funskjoner til drag and drop
-// const fill = document.querySelector('.fill');
-// const empties = document.querySelectorAll('.empty');
-
-//lopp through empties and call drag events: 
-// for(const empty of empties) {
-//     empty.addEventListener('dragover', dragOver);
-//     empty.addEventListener('dragenter', dragEnter);
-//     empty.addEventListener('dragleave', dragLeave);
-//     empty.addEventListener('drop', dragDrop);
-// }
-
-//Fill listeners: 
-
-// fill.addEventListener('dragstart', dragStart);
-// fill.addEventListener('dragend', dragEnd);
-
-//Drag functions: 
-
-// function dragStart(){
-//     this.className += ' hold';
-//     setTimeout(() => (this.className = 'invisible'), 0);
-
-
-// }
-
-// function dragEnd() {
-//  this.className = 'fill';
-// }
-
-// function dragOver(e) {
-// e.preventDefault();
     
-// }
-
-// function dragEnter(e) {
-//    e.preventDefault();
-//     this.className += ' hovered';
-// }
-// function dragLeave() {
-//    this.className = 'empty';
-// }
-// function dragDrop() {
-//     this.className =   'empty';
-//     this.append(fill);
-// }
-
-
+}

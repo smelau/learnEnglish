@@ -283,7 +283,7 @@ let model = {
         }, 
     ],
 
-makingPlansWrite:['town? to you Are  going','church goes friend My Sundays. to on','bus take I the school. to','park. walk I dog my  in the', 'trolley shopping. when go need I a  I', 'like I to cafe. to go the', 'It bakery. good in smells the','The yellow. bench is','There police officer. is a','pond. a little That is','We go cinema. to should the','bridge. long What a','plastic need I a bag.','Take coin. that ','I to the need go hairdresser. to','I zoo. the love','The is traffic red. light', ],
+makingPlansWrite:['town? to you Are  going','church goes friend My Sundays. to on','bus take I the school. to','park. walk I dog my  in the', 'trolley shopping. when go need I a  I', 'like I to cafe. to go the', 'It bakery. good in smells the','The yellow. bench is','There police officer. is a','pond. a little That is','We go cinema. to should the','bridge. long What a','plastic need I a bag.','Flip coin. a','I to the need go hairdresser. to','I zoo. the love','The is traffic red. light', ],
 
 makingPlansCorrect:['Are you going to town?', 'My friend goes to church on Sundays.','I take the bus to school.','I walk my dog in the park.', 'I need a trolley when I go shopping.','I like to go to the cafe.','It smells good in the bakery.','The bench is yellow.','There is a police officer.','That is a little pond.','We should go to the cinema.','What a long bridge.','I need a plastic bag.','Flip a coin.','I need to go to the hairdresser.','I love the zoo.','The traffic light is red.',],
 

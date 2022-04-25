@@ -150,7 +150,8 @@ function readMakingPlans() {
 
 
 function writeMakingPlans() {
-    html = /*html*/`
+   let html= '';
+    html += /*html*/`
     <div class="page">
 <div onclick="changePage('home')" class='header'><img class="imgHeader" src="https://previews.123rf.com/images/artinspiring/artinspiring2009/artinspiring200900557/155326908-learn-english-class-typographic-header-study-foreign-languages-in-school.jpg" ></div>
 <div class='menu'>
@@ -167,41 +168,11 @@ if (randomQuestionIndex == null) getRandomQuestion(); {
      <input style="font-size: 24px; class="inputMakingPlans" id="answerCheck" type="text" placeholder="Type here" oninput="userAnswer = this.value"></input><br>
      <button class="makingPlansSentenceBtn" onclick="svar()">Check answer</button><br><br>
      <button class="makingPlansSentenceBtn" onclick="getRandomQuestion()">Next</button><br><br></div>
-     `
-    
-}
 
+     </div>
 
-// for(let i = 0; i < model.makingPlans.length; i++){
-    
-//     let first = i % 2 == 0 ? 'first' : '';
-//     html +=  /*html*/`
-//     <div class="makingPlansSentence">
-//     ${model.makingPlans[i].sentence} <br>
-//     <input class="inputMakingPlans" type ="text" oninput="setValueMakePlans(this.value, ${i})" style="font-size: 24px;" id="${i}">
-//     <button class="makingPlansSentenceBtn" onclick="checkMakePlans(${i})">Check answer</button>
-//     </div>
-//     `
-// }
+</div>`}
 
-
-
-    html += `
-</div>
-
-</div>`
 
     appDiv.innerHTML= html; 
 }
-
-{/* 
-     <div class="empty">
-    //     <div class="fill" draggable="true" ></div>
-    // </div>
-    // <div class="empty"></div>
-    // <div class="empty"></div>
-    // <div class="empty"></div>
-    // <div class="empty"></div>
-
-
-</div> */}
