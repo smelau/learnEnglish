@@ -108,7 +108,7 @@ function readMakingPlans() {
     <div class="listen">
 <table class="tableMakingPlans"><tr>
             <td colspan="2">
-            <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundChildren.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+            <img class="volumePic" onclick="playAudio('soundsMakingPlans/opptak1.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
            <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic1" src="makingPlansPics/childrenPlay.png"></td>
            <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic2" src="makingPlansPics/childrenPlay2.png"></td>
            <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic3" src="makingPlansPics/childrenPlay3.png"></td>
@@ -116,7 +116,7 @@ function readMakingPlans() {
 
     <table class="tableMakingPlans"><tr>
         <td colspan="2">
-            <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundGirl.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+            <img class="volumePic" onclick="playAudio('soundsMakingPlans/opptak2.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
            <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic1" src="makingPlansPics/girl3.png"></td>
            <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic2" src="makingPlansPics/girl2.png"></td>
            <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic3" src="makingPlansPics/girl.png"></td>
@@ -124,7 +124,7 @@ function readMakingPlans() {
 
             <table class="tableMakingPlans"><tr>
         <td colspan="2">
-            <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundBath.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+            <img class="volumePic" onclick="playAudio('soundsMakingPlans/opptak3.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
            <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic1" src="makingPlansPics/bath.png"></td>
            <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic2" src="makingPlansPics/bath2.png"></td>
            <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic3" src="makingPlansPics/bath3.png"></td>
@@ -132,7 +132,7 @@ function readMakingPlans() {
 
             <table class="tableMakingPlans"><tr>
             <td colspan="2">
-                <img class="volumePic" onclick="playAudio('soundsMakingPlans/soundPond.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
+                <img class="volumePic" onclick="playAudio('soundsMakingPlans/opptak4.m4a')" src="volume-removebg-preview.png"></td></tr><tr>
                <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic1" src="makingPlansPics/pond.png"></td>
                <td> <img onclick="playAudio('soundsEffects/correct.mp3')" class="pic2" src="makingPlansPics/pond2.png"></td>
                <td> <img onclick="playAudio('soundsEffects/wrong.mp3')" class="pic3" src="makingPlansPics/pond3.png"></td>
